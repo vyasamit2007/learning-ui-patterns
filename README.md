@@ -1,4 +1,4 @@
-# My Project
+# Learning UI Patterns
 
 A brief description of My Project.
 

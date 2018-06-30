@@ -1,6 +1,6 @@
 project:
-  machine_name: learning-ui-patterns
-  prefix: LUP
+  machine_name: learn-uip
+  prefix: LUIP
   human_name: 'Learning UI Patterns'
   profile:
     name: lightning
