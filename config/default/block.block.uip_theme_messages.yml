@@ -1,0 +1,22 @@
+uuid: 3db2550b-d1ba-4e4f-8e65-2e77d4cff966
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - uip_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: uip_theme_messages
+theme: uip_theme
+region: breadcrumb
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 4234b849-a3bd-42b3-be78-25236c9aedce
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - uip_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: uip_theme_powered
+theme: uip_theme
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

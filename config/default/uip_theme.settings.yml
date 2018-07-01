@@ -1,0 +1,30 @@
+schemas:
+  bootstrap: 8000
+  uip_theme: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: profiles/contrib/lightning/favicon.ico
+  url: 'http://local.learn-uip.com/profiles/contrib/lightning/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: profiles/contrib/lightning/lightning.png
+  url: ''
+  use_default: true
+region_wells:
+  header: ''
+  primary_menu: ''
+  secondary_menu: ''
+  featured: ''
+  breadcrumb: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+table_responsive: '-1'
+table: ''
+font_size: 16

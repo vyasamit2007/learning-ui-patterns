@@ -1,0 +1,22 @@
+uuid: b5ebd178-5b9a-4849-83c5-3504b6dc9af6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - uip_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: uip_theme_help
+theme: uip_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
