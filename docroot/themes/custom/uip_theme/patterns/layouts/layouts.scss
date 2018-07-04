@@ -27,7 +27,7 @@ $large: $screen $medium-max + 1;
 .container {
   @include clearfix;
   padding: 1em;
-  max-width: 80em;
+  max-width: 150em;
   margin: gutter() auto;
   position: relative;
 }

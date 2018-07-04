@@ -1,0 +1,49 @@
+.component-text.c-container {
+  background-color: #fbfbfb;
+  border: 1px solid #999999;
+  padding: 1vw;
+  margin: 1vw 0;
+  h2 {
+    font-size: 1.5vw;
+    line-height: 2vw;
+  }
+  .description {
+    .subtitle {
+      background-color: #666666;
+      padding: 1vw;
+      color: #ffffff;
+      font-size: 1vw;
+      line-height: 1.2vw;
+    }
+    p {
+      font-size: .9vw;
+      font-weight: normal;
+      line-height: 1vw;
+    }
+  }
+  &.colorblue {
+    background-color: #eeefff;
+    border-color: #333777;
+    h2 {
+      color: #001299;
+    }
+    .description {
+      .subtitle {
+        background-color: #222888;
+      }
+    }
+  }
+  &.colorred {
+    background-color: #ffeeee;
+    border-color: #773333;
+    h2 {
+      color: #990000;
+    }
+    .description {
+      .subtitle {
+        background-color: #882222;
+      }
+    }
+  }
+
+}
