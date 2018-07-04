@@ -1,0 +1,14 @@
+uuid: 2cac34f7-612e-4901-a1c8-ed22b8d93a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.component_creator
+  module:
+    - user
+id: user_add_role_action.component_creator
+label: 'Add the Component creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: component_creator

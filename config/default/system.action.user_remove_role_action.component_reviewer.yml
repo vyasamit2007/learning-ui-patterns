@@ -1,0 +1,14 @@
+uuid: 6d111af2-240f-455e-ba14-9968997d5634
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.component_reviewer
+  module:
+    - user
+id: user_remove_role_action.component_reviewer
+label: 'Remove the Component reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: component_reviewer

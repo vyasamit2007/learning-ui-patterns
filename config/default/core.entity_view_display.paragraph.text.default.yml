@@ -1,0 +1,85 @@
+uuid: 35b72f31-2544-43b1-a4c0-35ffecd4ec3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_color
+    - field.field.paragraph.text.field_description
+    - field.field.paragraph.text.field_sub_title
+    - field.field.paragraph.text.field_title
+    - paragraphs.paragraphs_type.text
+  module:
+    - field_group
+    - options
+    - text
+third_party_settings:
+  field_group:
+    group_pattern:
+      children:
+        - field_title
+        - field_sub_title
+        - field_description
+        - field_color
+      parent_name: ''
+      weight: 0
+      format_type: pattern_formatter
+      format_settings:
+        label: Pattern
+        pattern: text
+        pattern_mapping:
+          'fields:field_color':
+            destination: color
+            weight: 0
+            plugin: fields
+            source: field_color
+          'fields:field_description':
+            destination: description
+            weight: 1
+            plugin: fields
+            source: field_description
+          'fields:field_sub_title':
+            destination: subtitle
+            weight: 2
+            plugin: fields
+            source: field_sub_title
+          'fields:field_title':
+            destination: title
+            weight: 3
+            plugin: fields
+            source: field_title
+      label: Pattern
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_color:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_sub_title:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

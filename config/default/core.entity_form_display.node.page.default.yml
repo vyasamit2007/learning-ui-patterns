@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_color
+    - field.field.node.page.field_heading
     - field.field.node.page.field_meta_tags
+    - field.field.node.page.panelizer
     - node.type.page
   module:
     - content_moderation
@@ -32,6 +35,20 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_color:
+    weight: 102
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_heading:
+    weight: 103
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_meta_tags:
     type: metatag_firehose
@@ -89,4 +106,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  panelizer: true

@@ -1,0 +1,21 @@
+uuid: da45c044-7f27-4224-a787-8552bb903c49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sub_title
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+id: paragraph.text.field_sub_title
+field_name: field_sub_title
+entity_type: paragraph
+bundle: text
+label: Sub-Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

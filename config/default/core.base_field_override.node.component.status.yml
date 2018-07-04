@@ -1,0 +1,22 @@
+uuid: c8193f56-8980-4c5c-91a8-4e74b023f55a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.component
+id: node.component.status
+field_name: status
+entity_type: node
+bundle: component
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

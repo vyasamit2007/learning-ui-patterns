@@ -1,0 +1,28 @@
+uuid: 6348714b-7b33-4e1c-b015-64e2d90b1a33
+langcode: en
+status: true
+dependencies: {  }
+id: component_creator
+label: 'Component creator'
+weight: 7
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node component content'
+  - 'administer panelizer node component layout'
+  - 'change layouts in place editing'
+  - 'create component content'
+  - 'create url aliases'
+  - 'edit own component content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view component revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

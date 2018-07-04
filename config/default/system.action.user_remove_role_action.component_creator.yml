@@ -1,0 +1,14 @@
+uuid: 6c14e035-8569-4cde-a8ce-92adf19bf557
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.component_creator
+  module:
+    - user
+id: user_remove_role_action.component_creator
+label: 'Remove the Component creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: component_creator

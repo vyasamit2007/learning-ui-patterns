@@ -1,0 +1,14 @@
+uuid: 155af3b6-cea8-46cb-9ce9-da15e0289d74
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.component_reviewer
+  module:
+    - user
+id: user_add_role_action.component_reviewer
+label: 'Add the Component reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: component_reviewer
