@@ -1,0 +1,27 @@
+.component-image_text {
+  min-height: 20vw;
+  margin: 2vw 0;
+  .component-container {
+    .component-image {
+      float: left;
+      width: 15vw;
+      padding: 0 1vw 0 0;
+    }
+    &.right {
+      .component-image {
+        float: right;
+        padding: 0 0 0 1vw;
+      }
+    }
+    .component-text {
+      h2 {
+        font-size: 1.2vw;
+        font-weight: normal;
+      }
+      p {
+        font-size: .7vw;
+      }
+    }
+
+  }
+}

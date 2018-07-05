@@ -1,0 +1,88 @@
+uuid: 3bcdb333-e9d3-49e2-86c7-e16e01826f44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_image.field_description
+    - field.field.paragraph.text_image.field_image
+    - field.field.paragraph.text_image.field_image_position
+    - field.field.paragraph.text_image.field_title
+    - paragraphs.paragraphs_type.text_image
+  module:
+    - field_group
+    - image
+    - options
+    - text
+third_party_settings:
+  field_group:
+    group_text_image:
+      children:
+        - field_title
+        - field_description
+        - field_image
+        - field_image_position
+      parent_name: ''
+      weight: 0
+      format_type: pattern_formatter
+      format_settings:
+        label: 'Text + Image'
+        pattern: image_text
+        pattern_mapping:
+          'fields:field_description':
+            destination: body
+            weight: 0
+            plugin: fields
+            source: field_description
+          'fields:field_image':
+            destination: image
+            weight: 1
+            plugin: fields
+            source: field_image
+          'fields:field_image_position':
+            destination: image_position
+            weight: 2
+            plugin: fields
+            source: field_image_position
+          'fields:field_title':
+            destination: title
+            weight: 3
+            plugin: fields
+            source: field_title
+      label: 'Text + Image'
+id: paragraph.text_image.default
+targetEntityType: paragraph
+bundle: text_image
+mode: default
+content:
+  field_description:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_image_position:
+    type: list_key
+    weight: 4
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

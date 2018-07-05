@@ -1,0 +1,14 @@
+uuid: 63f1b743-1419-4a5c-9f34-04d8a9f691f4
+name: 'Learning UI Patterns'
+mail: no-reply@acquia.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

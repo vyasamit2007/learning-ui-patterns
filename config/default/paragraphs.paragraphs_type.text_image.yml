@@ -1,0 +1,9 @@
+uuid: c6d0fa36-f5bb-4711-b401-3602d02bd4aa
+langcode: en
+status: true
+dependencies: {  }
+id: text_image
+label: 'Text + Image'
+icon_uuid: null
+description: 'Add text+image component.'
+behavior_plugins: {  }

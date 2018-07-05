@@ -1,0 +1,7 @@
+uuid: 28ebfae1-c7eb-4235-8e35-314f7d6a51e1
+langcode: en
+status: true
+dependencies: {  }
+id: color_red
+label: 'Color Red'
+classes: color-red

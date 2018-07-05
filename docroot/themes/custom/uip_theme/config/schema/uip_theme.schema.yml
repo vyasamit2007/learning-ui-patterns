@@ -1,0 +1,8 @@
+# Schema for the configuration files of the UI Patterns Theme theme.
+uip_theme.settings:
+  type: theme_settings
+  label: 'UI Patterns Theme settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size

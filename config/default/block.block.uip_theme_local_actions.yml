@@ -1,0 +1,20 @@
+uuid: 72bee729-8281-4036-b26f-913dda2c3aa0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - uip_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: uip_theme_local_actions
+theme: uip_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

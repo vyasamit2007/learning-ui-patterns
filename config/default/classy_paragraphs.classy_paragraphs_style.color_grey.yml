@@ -1,0 +1,7 @@
+uuid: de7858a1-5019-42c7-aa91-b5d1a5046255
+langcode: en
+status: true
+dependencies: {  }
+id: color_grey
+label: 'Color Grey'
+classes: color-grey

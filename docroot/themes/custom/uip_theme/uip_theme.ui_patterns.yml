@@ -1,0 +1,49 @@
+image_text:
+  label: 'Image + Text Component'
+  description: 'Add text and image with position of the image.'
+  fields:
+    title:
+      type: 'text'
+      label: 'Title'
+      description: 'Component Title.'
+      preview: 'Hello, world!'
+    image:
+      type: 'text'
+      label: 'Image'
+      description: 'Component image.'
+      preview: '<img src="https://www.catsincare.com/wp-content/uploads/2014/01/Jn_Cat-Food3.jpg" />'
+    body:
+      type: 'text'
+      label: 'Description'
+      description: 'Component Body text.'
+      preview: 'Compellingly re-engineer high standards in testing procedures rather than intuitive applications. Compellingly generate long-term high-impact mindshare before flexible convergence. Uniquely integrate resource-leveling convergence after equity invested web services. Appropriately repurpose stand-alone "outside the box" thinking whereas market positioning communities. Phosfluorescently.'
+    image_position:
+      type: 'text'
+      label: 'Position of the image'
+      descritpion: 'Image position to the left or right?'
+      preview: 'left'
+
+text:
+  label: 'Text Component'
+  description: 'Add text component with Title, Subtitle and description fields.'
+  fields:
+    title:
+      type: 'text'
+      label: 'Title'
+      description: 'Component Title.'
+      preview: 'Compellingly engage e-business channels.'
+    subtitle:
+      type: 'text'
+      label: 'Sub-title'
+      description: 'Component Sub-title.'
+      preview: 'Conveniently revolutionize clicks-and-mortar leadership with 24/7 internal or "organic" sources. Credibly fashion granular vortals with scalable.'
+    description:
+      type: 'text'
+      label: 'Description'
+      description: 'Component Description text.'
+      preview: 'Rapidiously drive corporate results before standards compliant niches. Conveniently coordinate one-to-one synergy and user friendly total linkage. Quickly reconceptualize effective ROI via collaborative benefits. Continually target exceptional methods of empowerment before wireless platforms. Competently generate global materials vis-a-vis real-time users. Competently utilize cross functional collaboration and idea-sharing whereas compelling core competencies. Appropriately expedite state of the art.'
+    color:
+      type: 'text'
+      'label': 'Color'
+      description: 'Component background color.'
+      preview: 'red'

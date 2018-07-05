@@ -1,0 +1,83 @@
+uuid: ec82bd9a-aaa0-4f64-9e78-734e166c3ae1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_color
+    - field.field.node.page.field_heading
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.panelizer
+    - node.type.page
+  module:
+    - field_group
+    - metatag
+    - options
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+  field_group:
+    group_pattern:
+      children:
+        - field_heading
+        - body
+        - field_color
+      parent_name: ''
+      weight: 0
+      format_type: pattern_formatter
+      format_settings:
+        pattern: ''
+        pattern_mapping: {  }
+        classes: ''
+        id: ''
+      label: Pattern
+_core:
+  default_config_hash: Kfxnq5Imio9VFBoNa_PIkzXoTmjz_T-EY3mOrwDTddU
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_color:
+    weight: 7
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_heading:
+    type: string
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_empty_formatter
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  content_moderation_control: true
+  panelizer: true

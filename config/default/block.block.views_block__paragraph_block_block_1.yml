@@ -1,0 +1,30 @@
+uuid: 239ffa9f-4f4e-47b3-afe1-1583fb30e9bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.paragraph_block
+  module:
+    - system
+    - views
+  theme:
+    - uip_theme
+id: views_block__paragraph_block_block_1
+theme: uip_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:paragraph_block-block_1'
+settings:
+  id: 'views_block:paragraph_block-block_1'
+  label: 'Patterns in Views Block'
+  provider: views
+  label_display: visible
+  views_label: 'Patterns in Views Block'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
