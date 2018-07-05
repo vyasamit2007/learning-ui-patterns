@@ -46,4 +46,4 @@ text:
       type: 'text'
       'label': 'Color'
       description: 'Component background color.'
-      preview: 'red'
+      preview: 'colorred'
